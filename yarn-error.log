@@ -1,0 +1,43 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add express morgan body-parser mongoose
+
+PATH: 
+  D:\Apps\cmder\bin;D:\Apps\cmder\vendor\conemu-maximus5\ConEmu\Scripts;D:\Apps\cmder\vendor\conemu-maximus5;D:\Apps\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files\Docker\Docker\Resources\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\RailsInstaller\Ruby2.3.0\bin;C:\Ruby23-x64\bin;C:\Users\heinhoang\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\heinhoang\AppData\Local\Yarn\.bin;C:\Program Files\Docker Toolbox;C:\Users\heinhoang\AppData\Roaming\Dashlane\4.6.7.25343\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\heinhoang\AppData\Local\.meteor\;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;D:\Apps\cmder\
+
+Yarn version: 
+  0.20.3
+
+Node version: 
+  6.9.5
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "reactjs-game-library",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "heinhoang",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/bluebird/-/bluebird-2.10.2.tgz: Request failed "502 Bad Gateway"
+      at Request.handleRequestError (C:\Program Files (x86)\Yarn\lib\fetchers\tarball-fetcher.js:231:20)
+      at emitOne (events.js:96:13)
+      at Request.emit (events.js:188:7)
+      at Request.onRequestResponse (C:\Program Files (x86)\Yarn\node_modules\request\request.js:986:10)
+      at emitOne (events.js:96:13)
+      at ClientRequest.emit (events.js:188:7)
+      at HTTPParser.parserOnIncomingClient (_http_client.js:474:21)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:99:23)
+      at TLSSocket.socketOnData (_http_client.js:363:20)
+      at emitOne (events.js:96:13)
+      at TLSSocket.emit (events.js:188:7)
